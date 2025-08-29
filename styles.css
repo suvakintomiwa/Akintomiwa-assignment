@@ -1,0 +1,63 @@
+/* Task 1.1: Container */
+.container {
+  width: 500px;
+  height: 300px;
+  background-color: lightgray;
+  padding: 20px; /* Initial padding */
+  border: 2px solid black; /* Task 2.2 */
+  position: relative; /* Required for absolute positioning children */
+  margin: 50px auto; /* center container on page */
+}
+
+/* Task 1.2: Content */
+.content {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  margin: 20px auto; /* Task 2.1: margin added */
+  overflow: scroll;  /* Task 3.2: scrollbar on overflow */
+  padding: 10px;
+}
+
+/* Task 4.1: Absolute Positioning */
+.absolute {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: tomato;
+  color: white;
+  padding: 5px 10px;
+}
+
+/* Task 4.2: Relative Positioning */
+.relative {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  background: skyblue;
+  color: white;
+  padding: 5px 10px;
+}
+
+/* Task 5: Floating Elements */
+.float-left {
+  float: left;
+  width: 100px;
+  height: 50px;
+  background: green;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px;
+}
+
+.float-right {
+  float: right;
+  width: 100px;
+  height: 50px;
+  background: purple;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px;
+}
